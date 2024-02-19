@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.container-imagem {
+    background-color: #efefef;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagem {
+    width: 600px;
+}
+
+.login {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    gap: 15px;
+}
+
+.title {
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.title-edebe {
+    color: red;
+}
+
+.login-infos {
+    color: #AEABAB;
+    font-size: 15px;
+}
+
+.form {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-input {
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: #efefef;
+    width: 350px;
+    font-size: 15px;
+}
+
+.password-input {
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: #efefef;
+    width: 350px;
+    font-size: 15px;
+}
+
+.login-button {
+    color: white;
+    font-size: 16px;
+    width: 377px;
+    height: 45px;
+    background-color: #ce1f20;
+    font-weight: 700;
+    border: none;
+    border-radius: 1.8rem;
+    cursor: pointer;
+}
+
+.esquecei-a-senha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
